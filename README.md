@@ -9,7 +9,8 @@ Abstract
 
 
 # Preprint: 
-@misc{chen2025unifiedlearningprofilefunction,
+
+## @misc{chen2025unifiedlearningprofilefunction,
       title={Unified Learning of the Profile Function in Discrete Keller-Segel Models}, 
       author={Chi-An Chen and Chun Liu and Ming Zhong},
       year={2025},
