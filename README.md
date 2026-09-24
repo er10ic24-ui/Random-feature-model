@@ -102,9 +102,9 @@ The Random Feature models and related results implemented in this repository are
 ### Related Works:
 The following references provide the methods and/or experimental settings implemented for comparison with the Random Feature models in this repository:
 
+- **[1]** McClenny, Levi D. and Braga-Neto, Ulisses M., *Self-adaptive physics-informed neural networks*, 2023.  
+  Used as the methodological reference for our **Self-Adaptive PINN** implementation.
 
-* [1] Author et al., Paper Title, Year.
-    Used as the reference implementation for [method].
 * [2] Author et al., Paper Title, Year.
     Provides the numerical setup for [PDE/problem].
 * [3] Author et al., Paper Title, Year.
