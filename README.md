@@ -1,7 +1,9 @@
 # Random-feature-model
 Codes for the random feature model
 
-# Model Description: RFN  
+# Overview
+
+# Model Description: 
 Abstract: Machine learning-based partial differential equations (PDEs) solvers have attracted4
 significant attention in recent years. Most progress in this area has been driven by deep neural5
 networks such as physics-informed neural networks (PINNs) and kernel method (such as physics-6
@@ -15,30 +17,14 @@ derive high-probability error bounds on the H1 norm. We provide extensive numeri
 fying our theoretical guarantees on error decay rates, as well as several comparison tests to showcase14
 our claimed capability for combating spectral bias in these deep learning based methods 
 
-# Each folder: each equation; comparison of different Deep learning models 
+# Contents of This Repository
 
 
+# Repository Structure 
 
+# Notes on Reproducibility 
 
-Citation
-
-If you use this code or build upon the numerical experiments, please consider citing the following works.
-
-Our Work
-
-The Random Feature models and related results implemented in this repository are based on our preprint:
-'''
-@article{chen2026physics,
-  title={Physics Informed Random Feature Neural Networks for Solving PDEs},
-  author={Chen, Chi-An and Liao, Chunyang and Zhong, Ming},
-  journal={arXiv preprint arXiv:2609.16406},
-  year={2026}
-}
-
-Related Works
-
-The following references provide the methods and/or experimental settings implemented for comparison with the Random Feature models in this repository.
-
+# Scope and Limitations
 
 
 
@@ -70,12 +56,9 @@ The following references provide the methods and/or experimental settings implem
     Used for comparison with [method].
 
 
+# Representative Results 
 
-
-
-# Preprint: 
-
-## Preprint
+# Preprint
 
 A detailed description of the model, methodology, and numerical results
 is available in the following preprint:
@@ -84,15 +67,3 @@ is available in the following preprint:
 - **Authors:** C. Chen, C. Liao, M. Zhong.
 - **Link:** https://arxiv.org/abs/2609.16406
 
-## @misc{chen2025unifiedlearningprofilefunction,
-      title={Unified Learning of the Profile Function in Discrete Keller-Segel Models}, 
-      author={Chi-An Chen and Chun Liu and Ming Zhong},
-      year={2025},
-      eprint={2510.23381},
-      archivePrefix={arXiv},
-      primaryClass={math.NA},
-      url={https://arxiv.org/abs/2510.23381}, 
-}
-
-Please cite the following 
-bit 
