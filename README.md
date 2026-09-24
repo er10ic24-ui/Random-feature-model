@@ -19,34 +19,70 @@ our claimed capability for combating spectral bias in these deep learning based 
 
 
 
+
 Citation
 
 If you use this code or build upon the numerical experiments, please consider citing the following works.
 
+Our Work
+
+The Random Feature models and related results implemented in this repository are based on our preprint:
+'''
+@article{chen2026physics,
+  title={Physics Informed Random Feature Neural Networks for Solving PDEs},
+  author={Chen, Chi-An and Liao, Chunyang and Zhong, Ming},
+  journal={arXiv preprint arXiv:2609.16406},
+  year={2026}
+}
+
+Related Works
+
+The following references provide the methods and/or experimental settings implemented for comparison with the Random Feature models in this repository.
+
+
+
+
+
+# Citation
+If you use this code or build upon the numerical experiments, please consider citing the following works.
+
+## Our Work
 The Random Feature models and related results implemented in this repository are based on our preprint:
 
-* [Your preprint citation]
+```bibtex
+@article{chen2026physics,
+  title={Physics Informed Random Feature Neural Networks for Solving PDEs},
+  author={Chen, Chi-An and Liao, Chunyang and Zhong, Ming},
+  journal={arXiv preprint arXiv:2609.16406},
+  year={2026}
+}
+```
 
+## Related Works:
 The following references provide the methods and/or experimental settings implemented for comparison with the Random Feature models in this repository:
 
 
-- **[1]** Author et al., *Paper Title*, Year.
-  
-  Used as the reference implementation for [method].
+* [1] Author et al., Paper Title, Year.
+    Used as the reference implementation for [method].
+* [2] Author et al., Paper Title, Year.
+    Provides the numerical setup for [PDE/problem].
+* [3] Author et al., Paper Title, Year.
+    Used for comparison with [method].
 
-- **[2]** Author et al., *Paper Title*, Year.
 
-  Provides the numerical setup for [PDE/problem].
 
-- **[3]** Author et al., *Paper Title*, Year.
-
-  Used for comparison with [method].
-* [Reference 1]
-* [Reference 2]
-* [Reference 3]
 
 
 # Preprint: 
+
+## Preprint
+
+A detailed description of the model, methodology, and numerical results
+is available in the following preprint:
+
+- **Title:** Physics Informed Random Feature Neural Networks for Solving PDEs
+- **Authors:** C. Chen, C. Liao, M. Zhong.
+- **Link:** https://arxiv.org/abs/2609.16406
 
 ## @misc{chen2025unifiedlearningprofilefunction,
       title={Unified Learning of the Profile Function in Discrete Keller-Segel Models}, 
