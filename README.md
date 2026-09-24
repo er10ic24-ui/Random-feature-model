@@ -21,6 +21,45 @@ our claimed capability for combating spectral bias in these deep learning based 
 
 
 # Repository Structure 
+```
+.
+├── 1D_Wave_equation/
+│   ├── ELM_Wave.ipynb 
+│   ├── PINN_Wave.ipynb
+│   ├── RFN_Product_Wave.ipynb
+│   ├── SA_PINN_Wave.ipynb
+│   ├── Wave_Equation_training_points_sets.npy
+│   └── Wave_utils.py
+├── Helmholtz_equation/ 
+│   ├── ELM_Helmholtz.ipynb 
+│   ├── Helmholtz_utils.py
+│   ├── PINN_Helmholtz.ipynb
+│   ├── RFN_Product_Helmholtz.ipynb
+│   └── SA_PINN_Helmholtz.ipynb
+├── Linear_Advection_Diffusion/
+│   ├── Linear_Advection_Diffusion_training_points_sets.npy
+│   ├── RFN_Product_Advection_Diffusion.ipynb
+│   └── RFN_Uniform_Linear_Advection_Diffusion.ipynb
+├── Linear_Transport_equation/
+│   ├── ELM_Linear_Transport.ipynb
+│   ├── Linear_Transport_training_points_5000_sets.npy
+│   ├── Linear_Transport_utils.py
+│   ├── PINN_Linear_Transport.ipynb
+│   ├── RFN_Product_Linear_Transport.ipynb
+│   └── SA_PINN_Linear_Transport.ipynb
+├── Nonlinear_Poisson_convergence_rate
+├── Keller_Segel_2D_particle_trajectory.py
+├── Keller_Segel_3D_particle_trajectory.py
+├── Keller_Segel_4D_particle_trajectory.py
+├── Keller_Segel_SDE_2D_particle_trajectory.py
+├── Keller_Segel_SDE_4D_particle_trajectory.py
+├── Learn_KS_Kernel_all_dim_data.py
+├── Learn_KS_Kernel_all_dim_data_adaptive.py
+├── Learn_KS_Particle_trajectories_all_dim_data.py
+└── learned_trajectories.ipynb
+├── README.md
+```
+
 
 # Notes on Reproducibility 
 
