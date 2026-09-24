@@ -105,9 +105,13 @@ The following references provide the methods and/or experimental settings implem
 - **[1]** McClenny, Levi D. and Braga-Neto, Ulisses M., *Self-adaptive physics-informed neural networks*, 2023.  
   Used as the methodological reference for our **Self-Adaptive PINN** implementation.
 
-* [2] Author et al., Paper Title, Year.
-    Provides the numerical setup for [PDE/problem].
-* [3] Author et al., Paper Title, Year.
-    Used for comparison with [method].
+- **[2]** Krishnapriyan, Aditi and Gholami, Amir and Zhe, Shandian and Kirby, Robert and Mahoney, Michael, *Characterizing possible failure modes in physics-informed neural networks*, 2021.  
+  Provides the basis for the numerical setup of selected PDE problems and examples in this repository.
+
+- **[3]** Liao, Chunyang, *Solving partial differential equations with random feature models*, 2025.  
+  Serves as the methodological reference for the **Uniform Random Feature (URF)** model implemented in this repository. The nonlinear Poisson problem is used for verification of the convergence-rate results, while the linear advection-diffusion problem is used for comparison with the proposed **Product Random Feature (PRF)** model.
+
+- **[4]** Huang, Guang-Bin and Zhu, Qin-Yu and Siew, Chee-Kheong, *Extreme Learning Machine: Theory and Applications*, 2006.  
+  Provides the methodological reference for the **Extreme Learning Machine (ELM)** baseline implemented in this repository.
 
 
