@@ -20,18 +20,19 @@ our claimed capability for combating spectral bias in these deep learning based 
 # Contents of This Repository
 
 
-# Repository Structure 
-```
+## Repository Structure
+
+```text
 .
 ├── 1D_Wave_equation/
-│   ├── ELM_Wave.ipynb 
+│   ├── ELM_Wave.ipynb
 │   ├── PINN_Wave.ipynb
 │   ├── RFN_Product_Wave.ipynb
 │   ├── SA_PINN_Wave.ipynb
 │   ├── Wave_Equation_training_points_sets.npy
 │   └── Wave_utils.py
-├── Helmholtz_equation/ 
-│   ├── ELM_Helmholtz.ipynb 
+├── Helmholtz_equation/
+│   ├── ELM_Helmholtz.ipynb
 │   ├── Helmholtz_utils.py
 │   ├── PINN_Helmholtz.ipynb
 │   ├── RFN_Product_Helmholtz.ipynb
@@ -47,16 +48,19 @@ our claimed capability for combating spectral bias in these deep learning based 
 │   ├── PINN_Linear_Transport.ipynb
 │   ├── RFN_Product_Linear_Transport.ipynb
 │   └── SA_PINN_Linear_Transport.ipynb
-├── Nonlinear_Poisson_convergence_rate
-├── Keller_Segel_2D_particle_trajectory.py
-├── Keller_Segel_3D_particle_trajectory.py
-├── Keller_Segel_4D_particle_trajectory.py
-├── Keller_Segel_SDE_2D_particle_trajectory.py
-├── Keller_Segel_SDE_4D_particle_trajectory.py
-├── Learn_KS_Kernel_all_dim_data.py
-├── Learn_KS_Kernel_all_dim_data_adaptive.py
-├── Learn_KS_Particle_trajectories_all_dim_data.py
-└── learned_trajectories.ipynb
+├── Nonlinear_Poisson_convergence_rate/
+│   ├── Nonlinear_Poisson_2d_data.pt
+│   ├── Nonlinear_Poisson_4d_data.pt
+│   ├── Nonlinear_Poisson_8d_data.pt
+│   ├── Nonlinear_Poisson_H1_Convergence_Rate.pdf
+│   ├── Nonlinear_Poisson_L2_Convergence_Rate.pdf
+│   └── RFN_Nonlinear_high_dim_Poisson.ipynb
+├── utils/
+│   ├── ELM_structure.py
+│   ├── PINN_structure.py
+│   ├── RFN_structure.py
+│   ├── SA_PINN_structure.py
+│   └── data.py
 ├── README.md
 ```
 
