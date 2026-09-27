@@ -50,13 +50,14 @@ problems.
 
 ### Utility Modules
 
-Contains shared Python modules for constructing neural-network architectures,
-generating data, and supporting the numerical experiments:
-* `ELM_structure.py`
-* `PINN_structure.py`
-* `RFN_structure.py`
-* `SA_PINN_structure.py`
-* `data.py`
+Contains shared Python modules in `utils/` for constructing neural-network
+architectures, generating data, and supporting the numerical experiments:
+
+- `ELM_structure.py`
+- `PINN_structure.py`
+- `RFN_structure.py`
+- `SA_PINN_structure.py`
+- `data.py`
 
 ## Repository Structure
 
