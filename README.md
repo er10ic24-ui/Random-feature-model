@@ -28,9 +28,35 @@ our claimed capability for combating spectral bias in these deep learning based 
 
 ## Contents of This Repository
 
-### Numerical Experiments
+### Numerical Experiments and Model Comparisons
+
+Contains numerical experiments for several PDEs, including:
+
+* `1D_Wave_equation/` — Wave equation experiments and comparisons.
+* `Helmholtz_equation/` — Helmholtz equation experiments and comparisons.
+* `Linear_Transport_equation/` — Linear transport equation experiments and comparisons.
+* `Linear_Advection_Diffusion/` — Linear advection-diffusion experiments.
+
+The notebooks compare Product Random Feature Networks (PRF) with Random Feature Networks (RFN), 
+Physics-Informed Neural Networks (PINNs), Self-Adaptive PINNs (SA-PINNs), and Extreme Learning Machines (ELMs).
+
 ### Verification of Theoretical Results
+
+Contains numerical experiments for verifying the theoretical approximation
+results. In particular, the `Nonlinear_Poisson_convergence_rate/` directory
+contains experiments for evaluating the $L^2$ and $H^1$ convergence rates
+of Product Random Feature Networks in higher-dimensional nonlinear Poisson
+problems.
+
 ### Utility Modules
+
+Contains shared Python modules for constructing neural-network architectures,
+generating data, and supporting the numerical experiments:
+* `ELM_structure.py`
+* `PINN_structure.py`
+* `RFN_structure.py`
+* `SA_PINN_structure.py`
+* `data.py`
 
 ## Repository Structure
 
