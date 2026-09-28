@@ -1,7 +1,10 @@
 # Random-feature-model
-Codes for the random feature model
+
+Implementation and numerical experiments for random feature neural networks for solving partial differential equations (PDEs).
 
 ## Overview
+
+This repository contains the implementation of Product Random Feature (PRF) neural networks and the associated numerical experiments. The experiments evaluate the approximation performance of the proposed random feature models on several PDE problems and provide numerical verification of the theoretical results.
 
 ## Preprint
 
