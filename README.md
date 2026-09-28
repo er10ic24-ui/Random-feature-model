@@ -103,11 +103,29 @@ architectures, generating data, and supporting the numerical experiments:
 ├── README.md
 ```
 
-
 ## Notes on Reproducibility
+
+The numerical experiments in this repository are designed to be reproducible. The corresponding experiment directories contain the code and parameter settings used to generate the reported results and figures.
+
+Unless otherwise specified, randomized experiments are repeated over multiple independent trials, with random features and training samples generated independently for each trial. The reported results are aggregated across these trials.
+
+The main implementation details, including model parameters, numbers of random features and training points, optimization settings, and evaluation procedures, are specified in the corresponding experiment scripts.
+
+## Environment
+
+The experiments were developed and tested with:
+
+- Python 3.x
+- PyTorch
+- NumPy
+- SciPy
+- Matplotlib
 
 ## Scope and Limitations
 
+This work focuses on PDEs exhibiting inhomogeneous variations along the spatial and/or temporal axes, where the solution varies across different directions of the computational domain.
+
+The proposed random feature models are evaluated on the types of problems considered in this work. However, they may have difficulty resolving solutions with sharp gradients or localized structures. For example, for convection-dominated problems such as the viscous Burgers’ equation in regimes with steep solution gradients, the current random feature models may not accurately capture these sharp features.
 
 
 
