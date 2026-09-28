@@ -51,6 +51,14 @@ contains experiments for evaluating the $L^2$ and $H^1$ convergence rates
 of Product Random Feature Networks in higher-dimensional nonlinear Poisson
 problems.
 
+### Representative Results
+
+The repository includes numerical experiments verifying the theoretical approximation results of the Product Random Feature (PRF) model. In particular, the Nonlinear_Poisson_convergence_rate/ directory contains experiments investigating the $L^2$ and $H^1$ convergence rates for nonlinear Poisson problems in different dimensions.
+
+![L2 convergence rate](Nonlinear_Poisson_convergence_rate/figures/Nonlinear_Poisson_L2_Convergence_Rate.pdf)
+
+![H1 convergence rate](Nonlinear_Poisson_convergence_rate/figures/Nonlinear_Poisson_H1_Convergence_Rate.pdf)
+
 ### Utility Modules
 
 Contains shared Python modules in `utils/` for constructing neural-network
