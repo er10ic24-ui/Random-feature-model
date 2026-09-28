@@ -35,10 +35,11 @@ our claimed capability for combating spectral bias in these deep learning based 
 
 Contains numerical experiments for several PDEs, including:
 
-* `1D_Wave_equation/` — Wave equation experiments and comparisons.
-* `Helmholtz_equation/` — Helmholtz equation experiments and comparisons.
-* `Linear_Transport_equation/` — Linear transport equation experiments and comparisons.
-* `Linear_Advection_Diffusion/` — Linear advection-diffusion experiments.
+- [`1D_Wave_equation/`](./1D_Wave_equation/) — Wave equation experiments and comparisons.
+- [`Helmholtz_equation/`](./Helmholtz_equation/) — Helmholtz equation experiments and comparisons.
+- [`Linear_Transport_equation/`](./Linear_Transport_equation/) — Linear transport equation experiments and comparisons.
+- [`Linear_Advection_Diffusion/`](./Linear_Advection_Diffusion/) - Linear advection-diffusion experiments.
+
 
 The notebooks compare Product Random Feature Networks (PRF) with Random Feature Networks (RFN), 
 Physics-Informed Neural Networks (PINNs), Self-Adaptive PINNs (SA-PINNs), and Extreme Learning Machines (ELMs).
@@ -50,8 +51,6 @@ results. In particular, the `Nonlinear_Poisson_convergence_rate/` directory
 contains experiments for evaluating the $L^2$ and $H^1$ convergence rates
 of Product Random Feature Networks in higher-dimensional nonlinear Poisson
 problems.
-
-### Representative Results
 
 The repository includes numerical experiments verifying the theoretical approximation results of the Product Random Feature (PRF) model. In particular, the Nonlinear_Poisson_convergence_rate/ directory contains experiments investigating the $L^2$ and $H^1$ convergence rates for nonlinear Poisson problems in different dimensions.
 
